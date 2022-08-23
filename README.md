@@ -1,5 +1,7 @@
 # wanted_pre_onboarding
-원티드 프리온보딩 백엔드 코스 4차 선발과제
+
+## Flow Chart
+![image](https://user-images.githubusercontent.com/93569041/186162883-fb61fc27-8e36-49d4-bf99-9c8c98581cad.png)
 
 ## DB-SCHEMA
 ![image](https://user-images.githubusercontent.com/93569041/186153385-b8875bad-6650-4a6f-82a6-f5cbb2e1abaf.png)
