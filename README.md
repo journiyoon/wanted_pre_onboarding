@@ -32,8 +32,8 @@ Response `201`
     "skill": "Node.js",
     "text": "네이버에서는 Node.js 이용 가능한 백엔드 개발자를 채용합니다. 자격은...",
     "companyId": 2,
-    "updatedAt": "2022-08-23T12:26:57.416Z",
-    "createdAt": "2022-08-23T12:26:57.416Z"
+    "updatedAt": "2022-08-20T00:00:00",
+    "createdAt": "2022-08-20T00:00:00"
 }
 ```
 
@@ -69,12 +69,12 @@ Response `200`
     "company_name": "네이버",
     "country": "한국",
     "area": "서울",
-    "position": "프론트엔드 개발자",
+    "position": "백엔드 개발자",
     "compensation": 1000000,
-    "skill": "Vue.js",
-    "company_id": 1,
-    "text": "네이버에서 프론트엔드 Vue.js 개발자를 채용합니다. 자격요건은..",
-    "updatedAt": "2022-08-23T12:30:55.883Z"
+    "skill": "Django",
+    "company_id": 2,
+    "text": "네이버에서는 Django 이용 가능한 백엔드 개발자를 채용합니다. 자격은...",
+    "updatedAt": "2022-08-20T00:00:00"
 }
 ```
 - 
