@@ -34,9 +34,6 @@ export async function update(req, res, next) {
   if (!jobs) {
     return res.status(404).json({ message: `Jobs not found: ${id}` });
   }
-  /* if (!jobs.companyId) {
-    return res.sendStatus(403);
-  } */
   const updated = await jobRepository.update(
     id,
     position,
@@ -53,7 +50,6 @@ export async function remove(req, res, next) {
   if (!job) {
     return res.status(404).json({ message: `Job not found: ${id}` });
   }
-  // if(job.userId !== req.userId) return res.sendStatus(403)
   await jobRepository.deleteById(id);
   res.sendStatus(204);
 }
